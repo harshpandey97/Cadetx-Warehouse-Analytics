@@ -1,8 +1,0 @@
-check,rows_failed,rows_total,decision
-negative sales qty,0,130402,
-missing order id,0,130402,
-negative revenue,0,130402,
-received before ordered,0,155495,
-negative stock on hand,0,180,
-duplicate product-branch,0,180,
-payment before invoice due -90d+,206,21480,
