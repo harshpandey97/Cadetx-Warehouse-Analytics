@@ -1,0 +1,2 @@
+flag,detail,what_to_do
+Stock looks too large compared with demand,"Median days of stock is 52,625. Current stock is about 1,173 months of demand.","Ask CadetX what unit stock is measured in. Do not use days of stock, reorder or stockout flags until this is answered."

@@ -1,0 +1,26 @@
+check,result
+no rows lost: branches,PASS
+no rows lost: customers,PASS
+no rows lost: products,PASS
+no rows lost: suppliers,PASS
+no rows lost: sales_orders,PASS
+no rows lost: sales_lines,PASS
+no rows lost: purchase_orders,PASS
+no rows lost: purchase_lines,PASS
+no rows lost: invoices,PASS
+no rows lost: payments,PASS
+no rows lost: inventory,PASS
+no rows lost: stock_ledger,PASS
+products: product_id unique,PASS
+branches: branch_id unique,PASS
+sales orders: so_id unique,PASS
+customers: customer_id unique,PASS
+inventory: product and branch pair unique,PASS
+no missing links: sales_lines.so_id -> sales_orders,PASS
+no missing links: sales_lines.product_id -> products,PASS
+no missing links: sales_orders.customer_id -> customers,PASS
+no missing links: purchase_lines.po_id -> purchase_orders,PASS
+no missing links: purchase_orders.supplier_id -> suppliers,PASS
+no missing links: inventory.product_id -> products,PASS
+no missing links: stock_ledger.product_id -> products,PASS
+order header total matches line total,PASS

@@ -1,0 +1,7 @@
+table,change,rows
+all,removed extra spaces from text,0
+branches,split capacity into number and unit,6
+invoices,"invoice_id used by more than one invoice (flagged, kept)",393
+payments,"payment_id used by more than one payment (flagged, kept)",403
+purchase_orders,"pending POs (no received date), kept blank",2370
+stock_ledger,ADJUSTMENT rows with no direction (excluded from stock check),2454
