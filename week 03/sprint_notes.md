@@ -37,5 +37,4 @@ if data coverage is too short to produce meaningful dead-stock values].
   (180 days) are assumptions and can be adjusted.
 - [Add anything else you noticed, e.g. missing branch capacity data.]
 
-## Next week
-[Your next sprint goal]
+
