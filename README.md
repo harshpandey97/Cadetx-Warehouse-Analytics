@@ -15,6 +15,15 @@
 
 ---
 
+## Contents
+
+Click a section to jump to it. Each week is collapsible.
+
+- [About the project](#about-the-project) · [Dataset](#dataset-at-a-glance) · [Data model](#data-model)
+- [Roadmap](#roadmap)
+- [Week 1](#week-1) · [Week 2](#week-2) · [Week 3](#week-3) · [Week 4](#week-4) · [Week 5](#week-5)
+- [KPIs](#key-kpis) · [Quick start](#quick-start) · [Repository](#repository-structure)
+
 ## About the project
 
 A 12-week applied data project on heavy-equipment supply-chain data. The goal is to **reduce dead stock, prevent stockouts, and improve supplier reliability** across six warehouses.
@@ -67,23 +76,26 @@ erDiagram
 ## Roadmap
 
 <div align="center">
-<img src="assets/roadmap_progress.svg" alt="Roadmap progress bar" width="760"/>
+<img src="assets/roadmap_progress_animated.svg" alt="Animated roadmap progress: 4 of 12 weeks complete" width="760"/>
 </div>
 
 - [x] Week 1 — Dataset exploration and exploratory data analysis (submitted)
 - [ ] Week 2 — Data cleaning and missing-value treatment (ready to submit)
 - [x] Week 3 — SQL database design and data validation (built; SQL Server run pending)
-- [ ] Week 4 — Supplier performance analysis
-- [ ] Week 5 — Inventory health and dead-stock analysis *(on hold: stock unit to be confirmed)*
-- [ ] Week 6 — Stockout and replenishment analysis *(on hold: stock unit to be confirmed)*
-- [ ] Week 7 — Warehouse performance comparison
+- [x] Week 4 — Product performance and stock health (complete; overstock result pending verification)
+- [x] Week 5 — Inventory turnover, stock aging, and branch analysis (complete; aging is approximate)
+- [ ] Week 6 — Warehouse space utilisation and throughput
+- [ ] Week 7 — Supplier and customer analytics
 - [ ] Week 8 — Demand forecasting
 - [ ] Week 9 — Inventory optimisation models *(on hold: stock unit to be confirmed)*
 - [ ] Week 10 — KPI dashboard development in Power BI
 - [ ] Week 11 — Model evaluation and business recommendations
 - [ ] Week 12 — Final report, documentation, and deployment
 
-## Week 1: Dataset exploration
+<a id="week-1"></a>
+<details open>
+<summary><h2 style="display:inline">Week 1: Dataset exploration</h2></summary>
+
 
 ### Team
 | Name | Role | Ownership (from Week 2 onward) |
@@ -120,7 +132,12 @@ erDiagram
 | `docs/cleaning_log.csv` | Every cleaning change, with rows affected |
 | `docs/data_dictionary.csv` | Column-level dictionary for the 12 source tables |
 
-## Week 2: Cleaning and integration
+</details>
+
+<a id="week-2"></a>
+<details open>
+<summary><h2 style="display:inline">Week 2: Cleaning and integration</h2></summary>
+
 
 ### Summary
 Week 2 cleans the 12 source tables, handles the one column with missing values, checks the cleaned data, and builds one analytical dataset with one row per product and branch (180 rows, 18 columns).
@@ -157,7 +174,12 @@ Current stock is about 1,173 months of average demand (median days of stock 52,6
 | `docs/open_flags.csv` | Known problems that block some measures |
 | `docs/analytical_dataset_dictionary.csv` | Definition and status for each of the 18 columns (draft) |
 
-## Week 3: SQL database design and validation
+</details>
+
+<a id="week-3"></a>
+<details open>
+<summary><h2 style="display:inline">Week 3: SQL database design and validation</h2></summary>
+
 
 - Database schema for SQL Server: 12 tables with primary keys, foreign keys and checks (`week-03/sql/01_schema.sql`).
 - Keys reflect the Week 1 findings: invoices are keyed on (invoice_id, so_id) and payments on (payment_id, invoice_id), because the single IDs are shared.
@@ -165,6 +187,85 @@ Current stock is about 1,173 months of average demand (median days of stock 52,6
 - 13 validation queries, each returning PASS or FLAG (`week-03/sql/02_validation.sql`). Results match the Week 1 and Week 2 numbers.
 - Tested on SQLite; SQL Server run pending.
 
+</details>
+
+<a id="week-4"></a>
+<details open>
+<summary><h2 style="display:inline">Week 4: Product performance and stock health</h2></summary>
+
+
+### Summary
+Week 4 measures how revenue, sales volume, and stock are spread across the 30 products, then classifies each product by how fast it moves and how much stock it holds.
+
+### Results
+- **Sales period:** 1 January 2019 to 31 December 2024 (2,192 days).
+- **Products with sales:** 30 of 30.
+- **Revenue:** 25,447,392,560, at a gross margin of 21.6%.
+- **Concentration:** 10 products (33% of the range) generate 80% of revenue.
+- **Dead stock:** none. Every product sold during the period.
+- **Overstock:** all 30 products are flagged at more than 90 days of cover. **This result is pending verification** (see below).
+
+### Open flag: overstock
+The stock total is consistent with the ledger (see Week 5), but every product showing 30,000+ days of cover is not yet confirmed as a real business finding. It needs checking against sales volume before it is reported.
+
+### Week 4 outputs
+
+| File | What it contains |
+|---|---|
+| `week-04/week04_analysis.py` | Day 1: load, profile, check joins |
+| `week-04/week04_day2.py` | Day 2: product performance (B1) |
+| `week-04/week04_day3.py` | Day 3: fast and slow movers, dead stock (B2, B3) |
+| `week-04/week04_day4.py` | Day 4: turnover and stock health (B4, B5) |
+| `week-04/week04_day5.py` | Day 5: charts and KPI summary |
+| `week-04/results.md` | Results summary for each analysis |
+| `week-04/README.md` | Method, results, and limitations |
+
+</details>
+
+<a id="week-5"></a>
+<details open>
+<summary><h2 style="display:inline">Week 5: Inventory turnover, stock aging, and branch analysis</h2></summary>
+
+
+### Summary
+Week 5 replaces the Week 4 snapshot turnover with a month-end average, measures how old the stock on hand is, and compares turnover across branches and categories.
+
+### Results
+- **Turnover (average basis):** 0.14x, equal to 15,454 days of inventory. This replaces the Week 4 snapshot figure of 0.07x.
+- **Branch turnover:** ranges from 0.11x at HYD001 to 0.17x at KOL001 and CHN001. Each branch holds about 22 to 24 billion in average stock, but sales differ widely.
+- **Category turnover:** all 15 categories fall between 0.13x and 0.15x.
+- **Stock age (approximate):** 81% of stock value on hand is over 365 days old.
+
+<div align="center">
+<img src="assets/branch_turnover_animated.svg" alt="Animated bars: turnover by branch" width="760"/>
+<br/>
+<img src="assets/inventory_aging_animated.svg" alt="Animated bars: stock value by age bucket" width="760"/>
+</div>
+
+### Data checks
+- The stock ledger reconciles with current stock: total difference of 1,526 units (0.008%), with 166 of 180 product-branch pairs matching exactly.
+- About 20% of IN and OUT ledger rows (around 55,000) do not match their recorded quantity against the balance change. These are spread evenly across 2019 to 2024, and about 11,300 cannot be explained by same-day ordering.
+- The ledger runs to 28 January 2025, past the 2024-12-31 sales period. The turnover calculation uses the sales period only.
+
+### Open flag: aging accuracy
+Because of the ledger inconsistencies above, the aging percentages are estimates. The direction (most stock is old) is reliable. The exact shares should not be used for write-down decisions until the ledger ordering is confirmed with the data owner.
+
+### Week 5 outputs
+
+| File | What it contains |
+|---|---|
+| `week-05/README.md` | Method, results, limitations, and next steps |
+| `week-05/results.md` | Results summary for each analysis |
+| `week-05/output/week5_turnover_by_product_corrected.csv` | Turnover and days of inventory per product |
+| `week-05/output/week5_turnover_by_branch.csv` | Turnover per branch |
+| `week-05/output/week5_turnover_by_category_corrected.csv` | Turnover per category |
+| `week-05/output/week5_aging_buckets.csv` | Stock value by age bucket |
+| `week-05/output/week5_aging_by_product.csv` | Average and oldest lot age per product |
+| `week-05/output/week5_kpis.csv` | KPI summary |
+
+</details>
+
+<a id="key-kpis"></a>
 ## Key KPIs
 
 KPIs are calculated from validated source data. No unverified results are reported.
@@ -236,6 +337,10 @@ python week-03/python/load_to_sql.py --csv-dir data/raw --url "mssql+pyodbc://lo
 
 Then run `week-03/sql/02_validation.sql` in SSMS.
 
+**6. Run the Week 4 and Week 5 analysis**
+
+Week 4 and Week 5 were run in Google Colab. Each week's README lists the run order. The scripts in `week-04/` run locally with the CSVs in `data/`.
+
 **Prerequisites:** Python 3.8 or later, the project dataset (download from the CadetX portal), and, for Week 3, SQL Server with the ODBC Driver 18.
 
 ## Technology stack
@@ -263,6 +368,9 @@ cadetx-warehouse-analytics/
 ├── week-03/                   # Week 3: SQL schema, validation, loader
 │   ├── sql/
 │   └── python/
+├── week-04/                   # Week 4: product performance and stock health
+├── week-05/                   # Week 5: turnover, aging, and branch analysis
+├── sprint-notes/              # Scrum Master sprint notes for each CadetX week
 ├── .gitignore
 └── README.md
 ```
