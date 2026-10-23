@@ -1,3 +1,0 @@
-git add README.md assets/
-git commit -m "README: animated charts, contents, collapsible weeks"
-git push
