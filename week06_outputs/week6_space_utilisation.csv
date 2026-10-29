@@ -1,7 +1,0 @@
-branch_id,branch_name,region,warehouse_type,capacity_sqft,market_demand_index,products,current_stock,max_stock,utilisation_vs_max_pct,space_share_pct,stock_share_pct,stock_vs_space_gap_pts,units_per_1000_sqft_PROVISIONAL
-PUN001,Pune Distribution,West,Regional,38750.0,8,30,3256263,8557,38053.8,17.1,16.9,-0.2,84032.6
-HYD001,Hyderabad Logistics,South,Branch,36210.0,7,30,3245291,9437,34389.0,16.0,16.8,0.8,89624.2
-DEL001,Delhi Central,North,Central,45230.0,9,30,3288670,9744,33750.7,20.0,17.0,-3.0,72709.9
-CHN001,Chennai South Hub,South,Regional,41890.0,8,30,3234245,9642,33543.3,18.5,16.8,-1.7,77208.0
-AHM001,Ahmedabad West Hub,West,Service Hub,34120.0,7,30,3154992,9690,32559.3,15.1,16.3,1.2,92467.5
-KOL001,Kolkata East Depot,East,Branch,29880.0,6,30,3123805,10846,28801.4,13.2,16.2,3.0,104545.0
