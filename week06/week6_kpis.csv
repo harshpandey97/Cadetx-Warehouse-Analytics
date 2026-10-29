@@ -1,0 +1,8 @@
+KPI,Value,Status
+Total units sold per month (avg),15578,confirmed
+Highest-throughput branch,CHN001,confirmed
+Lowest-throughput branch,HYD001,confirmed
+"Out-to-in ratio, all branches (%)",5.5,confirmed
+Overstock pairs (of 180),180,PROVISIONAL
+Understock pairs (of 180),0,PROVISIONAL
+Median days of cover,38170,PROVISIONAL
