@@ -1,9 +1,0 @@
-supplier_id,supplier_name,units,spend,avg_cost_per_unit,vs_average_pct
-SUP0002,Guangzhou Local Vendor Supplies,2758749,37715690508.02,13671.3,-1.91
-SUP0006,Qingdao Distributor Supplies,2841711,39111078783.99,13763.21,-1.25
-SUP0007,Suzhou Local Vendor Supplies,2806735,39045581644.58,13911.39,-0.19
-SUP0004,Ningbo Distributor Supplies,2726632,38025017578.72,13945.78,0.06
-SUP0005,Tianjin OEM Supplies,2875531,40256023887.03,13999.51,0.44
-SUP0003,Shanghai Distributor Supplies,2797645,39188775296.85,14007.77,0.5
-SUP0001,Shenzhen OEM Supplies,2802989,39439157083.27,14070.39,0.95
-SUP0008,Hangzhou OEM Supplies,2777131,39246104325.24,14131.89,1.39
