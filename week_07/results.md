@@ -1,7 +1,7 @@
 # Week 07 Results Summary
 
 **Project:** CadetX Heavy Supplier, Inventory & Warehouse Analytics
-**Team:** [Team name]
+**Team:** Harsh Pandey
 **Analysis period:** 2026-09-30 to 2026-12-31
 
 ## D1: Supplier contribution (confirmed)
