@@ -1,0 +1,9 @@
+supplier_id,supplier_name,product_category,region,po_count,purchase_value,units,value_share_pct,po_share_pct,unit_share_pct
+SUP0005,Tianjin OEM Supplies,Small Parts,North China,2754,40256023887.0,2875531,12.9,12.7,12.8
+SUP0001,Shenzhen OEM Supplies,Medium Parts,South China,2653,39439157083.3,2802989,12.6,12.3,12.5
+SUP0008,Hangzhou OEM Supplies,Small Parts,East China,2722,39246104325.2,2777131,12.6,12.6,12.4
+SUP0003,Shanghai Distributor Supplies,Large Parts,East China,2723,39188775296.8,2797645,12.6,12.6,12.5
+SUP0006,Qingdao Distributor Supplies,Large Parts,East China,2752,39111078784.0,2841711,12.5,12.7,12.7
+SUP0007,Suzhou Local Vendor Supplies,Medium Parts,East China,2727,39045581644.6,2806735,12.5,12.6,12.5
+SUP0004,Ningbo Distributor Supplies,Large Parts,East China,2664,38025017578.7,2726632,12.2,12.3,12.2
+SUP0002,Guangzhou Local Vendor Supplies,Small Parts,South China,2635,37715690508.0,2758749,12.1,12.2,12.3

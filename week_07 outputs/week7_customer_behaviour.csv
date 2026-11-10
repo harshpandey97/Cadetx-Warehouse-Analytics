@@ -1,0 +1,501 @@
+customer_id,customer_type,industry_segment,region,order_value,orders,value_rank
+C0001,Retail,Construction,East,67052288.0,40,201.0
+C0002,Fleet Owner,Manufacturing,South,77917319.2,56,86.0
+C0003,Government,Logistics,West,50921823.2,40,424.0
+C0004,Fleet Owner,Logistics,South,62484367.6,47,270.0
+C0005,Dealer,Construction,West,85668379.8,51,37.0
+C0006,Government,Construction,West,77685503.4,46,88.0
+C0007,Corporate,Manufacturing,West,48267553.2,36,456.0
+C0008,Corporate,Logistics,West,49133801.0,36,445.0
+C0009,Corporate,Rental,West,68836324.8,34,174.0
+C0010,Dealer,Construction,South,69405822.8,50,166.0
+C0011,Retail,Infrastructure,West,57187490.8,41,341.0
+C0012,Fleet Owner,Logistics,South,54659532.0,38,377.0
+C0013,Dealer,Construction,West,81970974.6,49,54.0
+C0014,Fleet Owner,Construction,East,55301444.6,31,361.0
+C0015,Government,Rental,West,64944750.0,38,233.0
+C0016,Government,Rental,East,77633128.0,41,90.0
+C0017,Government,Infrastructure,South,59455266.0,40,311.0
+C0018,Retail,Construction,West,59030468.4,36,318.0
+C0019,Government,Logistics,East,54871093.4,43,373.0
+C0020,Dealer,Logistics,East,48976856.0,41,448.0
+C0021,Corporate,Mining,South,65405456.4,47,227.0
+C0022,Retail,Infrastructure,South,56771100.0,39,348.0
+C0023,Corporate,Mining,South,68015185.6,37,188.0
+C0024,Dealer,Rental,South,62453301.2,48,271.0
+C0025,Corporate,Infrastructure,West,74907916.8,44,112.0
+C0026,Fleet Owner,Mining,North,76679411.4,41,97.0
+C0027,Fleet Owner,Logistics,West,60238104.6,44,299.0
+C0028,Retail,Infrastructure,South,42570807.4,34,483.0
+C0029,Dealer,Construction,South,58176890.6,38,328.0
+C0030,Corporate,Construction,South,64370910.6,38,240.0
+C0031,Government,Mining,East,66478869.4,40,211.0
+C0032,Government,Logistics,West,74116167.4,45,120.0
+C0033,Government,Mining,South,57806787.2,34,332.0
+C0034,Government,Construction,West,42944978.2,33,481.0
+C0035,Dealer,Infrastructure,Central,69432703.6,46,164.0
+C0036,Fleet Owner,Construction,East,60321548.8,39,297.0
+C0037,Corporate,Construction,West,49170554.6,38,444.0
+C0038,Fleet Owner,Rental,North,66333798.6,41,214.0
+C0039,Fleet Owner,Rental,South,68445013.6,40,181.0
+C0040,Government,Logistics,North,55264046.6,45,363.0
+C0041,Government,Rental,South,77732741.0,42,87.0
+C0042,Fleet Owner,Rental,South,78392790.0,44,76.0
+C0043,Corporate,Construction,South,50240542.800000004,37,431.0
+C0044,Government,Mining,West,55873422.6,38,354.0
+C0045,Corporate,Rental,East,77675754.60000001,43,89.0
+C0046,Retail,Rental,West,97081196.6,51,13.0
+C0047,Corporate,Rental,West,64303432.2,36,242.0
+C0048,Dealer,Mining,South,51356098.4,34,419.0
+C0049,Dealer,Manufacturing,South,84164002.6,42,44.0
+C0050,Dealer,Mining,East,63912172.0,30,246.0
+C0051,Retail,Infrastructure,North,59958994.4,37,304.0
+C0052,Government,Manufacturing,North East,57455055.6,37,336.0
+C0053,Fleet Owner,Construction,North,48380645.8,31,453.0
+C0054,Fleet Owner,Manufacturing,South,71503829.4,42,146.0
+C0055,Dealer,Construction,North,68815879.6,37,176.0
+C0056,Dealer,Mining,North,65974292.4,38,221.0
+C0057,Retail,Logistics,East,52687167.2,35,408.0
+C0058,Retail,Infrastructure,West,56841153.8,41,346.0
+C0059,Retail,Manufacturing,South,61020302.6,39,289.0
+C0060,Dealer,Mining,South,82033521.6,50,52.0
+C0061,Dealer,Construction,West,39850503.8,32,489.0
+C0062,Dealer,Construction,South,81412848.2,38,57.0
+C0063,Retail,Rental,North,77222513.2,43,94.0
+C0064,Corporate,Manufacturing,North,66364513.6,39,213.0
+C0065,Corporate,Mining,West,75287487.6,41,109.0
+C0066,Retail,Manufacturing,Central,60235825.4,38,300.0
+C0067,Retail,Manufacturing,West,56503395.6,33,350.0
+C0068,Retail,Mining,North,59659250.6,42,308.0
+C0069,Dealer,Logistics,North,82661260.2,52,49.0
+C0070,Government,Logistics,West,87747724.2,48,34.0
+C0071,Corporate,Rental,North,76936168.8,47,96.0
+C0072,Government,Logistics,West,59941485.6,30,305.0
+C0073,Corporate,Rental,North,62403573.6,36,272.0
+C0074,Fleet Owner,Infrastructure,East,59288601.6,45,315.0
+C0075,Retail,Mining,South,55423341.4,35,360.0
+C0076,Government,Mining,South,87221895.8,49,35.0
+C0077,Corporate,Mining,North,63409372.8,38,256.0
+C0078,Dealer,Rental,South,44016970.2,33,477.0
+C0079,Retail,Rental,North,47715030.2,33,459.0
+C0080,Retail,Mining,South,64442221.6,46,239.0
+C0081,Corporate,Rental,West,62552790.6,40,269.0
+C0082,Fleet Owner,Manufacturing,West,81249145.6,50,58.0
+C0083,Dealer,Infrastructure,North,94364155.4,50,17.0
+C0084,Corporate,Logistics,West,90726465.4,47,27.0
+C0085,Retail,Mining,South,71008889.0,44,151.0
+C0086,Retail,Construction,West,61140968.2,30,287.0
+C0087,Government,Logistics,South,52685252.8,41,409.0
+C0088,Corporate,Infrastructure,West,63615211.0,39,252.0
+C0089,Corporate,Rental,West,51004563.0,40,422.0
+C0090,Government,Infrastructure,North,56056558.6,45,353.0
+C0091,Retail,Construction,South,42545525.4,32,484.0
+C0092,Fleet Owner,Logistics,West,49508865.6,41,441.0
+C0093,Dealer,Manufacturing,South,63276812.2,41,261.0
+C0094,Corporate,Logistics,West,50263933.0,33,430.0
+C0095,Fleet Owner,Logistics,West,58809103.8,31,320.0
+C0096,Corporate,Construction,South,60656339.0,40,293.0
+C0097,Corporate,Construction,West,54923549.4,30,372.0
+C0098,Corporate,Mining,East,57357413.2,37,337.0
+C0099,Fleet Owner,Rental,South,66209370.0,52,218.0
+C0100,Government,Construction,North,50958417.2,42,423.0
+C0101,Corporate,Logistics,South,67105356.8,43,199.0
+C0102,Government,Infrastructure,East,80030261.4,38,64.0
+C0103,Dealer,Infrastructure,South,79536298.4,42,69.0
+C0104,Fleet Owner,Infrastructure,South,44705340.8,36,476.0
+C0105,Government,Logistics,North,66903370.4,46,204.0
+C0106,Dealer,Infrastructure,Central,60639108.8,42,294.0
+C0107,Fleet Owner,Construction,North,90133837.8,52,28.0
+C0108,Corporate,Rental,North,42738496.6,26,482.0
+C0109,Retail,Mining,South,73760844.8,48,122.0
+C0110,Dealer,Logistics,Central,94461957.2,44,16.0
+C0111,Corporate,Construction,South,59356912.0,39,314.0
+C0112,Fleet Owner,Mining,South,59897509.0,40,306.0
+C0113,Corporate,Logistics,South,83281862.4,42,47.0
+C0114,Retail,Mining,East,55114526.0,36,368.0
+C0115,Fleet Owner,Mining,South,48843581.0,33,450.0
+C0116,Dealer,Construction,North,76668904.6,40,98.0
+C0117,Government,Mining,North East,45754267.0,35,468.0
+C0118,Retail,Rental,South,54581290.4,39,381.0
+C0119,Government,Manufacturing,West,83814433.4,58,45.0
+C0120,Fleet Owner,Construction,South,52335040.0,36,413.0
+C0121,Government,Construction,West,49865297.8,36,438.0
+C0122,Dealer,Rental,North East,53915180.0,33,392.0
+C0123,Corporate,Infrastructure,East,70243447.0,37,159.0
+C0124,Dealer,Construction,West,65379588.0,47,228.0
+C0125,Government,Mining,West,49053869.4,36,446.0
+C0126,Dealer,Manufacturing,South,70535310.0,39,156.0
+C0127,Government,Construction,East,55495542.0,31,358.0
+C0128,Retail,Mining,West,73171694.8,39,132.0
+C0129,Corporate,Mining,North,82458307.6,40,50.0
+C0130,Government,Mining,West,60851805.0,41,290.0
+C0131,Corporate,Rental,South,73559256.8,39,126.0
+C0132,Corporate,Construction,Central,50864051.6,39,425.0
+C0133,Government,Mining,South,54603955.0,31,379.0
+C0134,Fleet Owner,Infrastructure,West,91565309.0,50,22.0
+C0135,Retail,Rental,South,78383415.4,45,77.0
+C0136,Dealer,Mining,West,52373189.0,42,411.0
+C0137,Dealer,Infrastructure,South,57221883.8,28,339.0
+C0138,Corporate,Mining,South,69371199.4,41,168.0
+C0139,Government,Mining,West,48432694.2,36,452.0
+C0140,Retail,Logistics,West,74126515.8,44,119.0
+C0141,Corporate,Rental,West,76394196.6,40,105.0
+C0142,Retail,Manufacturing,West,87849122.2,48,32.0
+C0143,Corporate,Infrastructure,South,49888789.6,29,437.0
+C0144,Fleet Owner,Construction,West,54049087.6,31,389.0
+C0145,Retail,Construction,West,37852475.0,37,495.0
+C0146,Retail,Mining,West,62762832.8,33,267.0
+C0147,Dealer,Rental,North,57961759.4,36,330.0
+C0148,Government,Construction,South,59828023.0,40,307.0
+C0149,Government,Manufacturing,West,73287579.6,42,131.0
+C0150,Fleet Owner,Manufacturing,West,45150214.2,34,474.0
+C0151,Government,Infrastructure,East,45382271.4,31,472.0
+C0152,Corporate,Manufacturing,South,63322590.0,41,258.0
+C0153,Retail,Rental,East,109360638.6,59,1.0
+C0154,Fleet Owner,Logistics,North,77981883.6,46,83.0
+C0155,Fleet Owner,Mining,East,45589948.4,36,471.0
+C0156,Government,Manufacturing,South,67944702.4,36,189.0
+C0157,Dealer,Infrastructure,North,66039594.4,38,220.0
+C0158,Corporate,Infrastructure,East,62074622.2,37,277.0
+C0159,Dealer,Construction,South,57251892.6,36,338.0
+C0160,Retail,Rental,West,76401059.6,49,104.0
+C0161,Dealer,Mining,West,69069391.0,43,172.0
+C0162,Retail,Mining,East,68830756.4,30,175.0
+C0163,Dealer,Logistics,West,51460399.4,40,418.0
+C0164,Government,Construction,North,59364706.6,39,313.0
+C0165,Fleet Owner,Manufacturing,North,80463427.2,51,63.0
+C0166,Fleet Owner,Manufacturing,West,74137215.4,34,118.0
+C0167,Retail,Mining,West,52892007.0,35,404.0
+C0168,Dealer,Infrastructure,West,77926391.0,38,85.0
+C0169,Fleet Owner,Construction,West,80772054.4,44,59.0
+C0170,Government,Construction,South,48302583.4,32,454.0
+C0171,Fleet Owner,Construction,South,68022564.0,36,187.0
+C0172,Dealer,Manufacturing,South,72288356.4,42,141.0
+C0173,Retail,Logistics,South,63791487.8,36,249.0
+C0174,Government,Mining,West,37034465.8,34,496.0
+C0175,Fleet Owner,Rental,East,67902256.2,41,190.0
+C0176,Dealer,Logistics,South,68872893.2,44,173.0
+C0177,Dealer,Construction,West,40099837.2,30,487.0
+C0178,Dealer,Logistics,East,97309961.6,58,12.0
+C0179,Government,Infrastructure,South,44818951.8,35,475.0
+C0180,Fleet Owner,Logistics,South,33556847.4,31,499.0
+C0181,Government,Construction,West,60094083.2,40,302.0
+C0182,Dealer,Infrastructure,East,45656632.6,32,470.0
+C0183,Government,Mining,West,41359486.8,32,486.0
+C0184,Retail,Rental,South,72655964.8,35,136.0
+C0185,Dealer,Logistics,West,58416829.8,39,323.0
+C0186,Fleet Owner,Infrastructure,East,77458487.0,42,92.0
+C0187,Retail,Rental,North,49675352.0,31,440.0
+C0188,Corporate,Logistics,West,61533771.8,45,281.0
+C0189,Government,Manufacturing,South,69544094.2,41,162.0
+C0190,Retail,Manufacturing,North,63609819.4,38,253.0
+C0191,Corporate,Manufacturing,South,71483715.2,31,147.0
+C0192,Fleet Owner,Logistics,East,75785020.60000001,43,107.0
+C0193,Dealer,Infrastructure,West,73624933.0,44,125.0
+C0194,Fleet Owner,Construction,South,50090927.4,36,433.0
+C0195,Fleet Owner,Logistics,East,59145431.2,33,317.0
+C0196,Fleet Owner,Rental,North East,78120269.6,54,82.0
+C0197,Government,Manufacturing,West,85162557.6,50,38.0
+C0198,Government,Mining,West,65200086.6,38,231.0
+C0199,Government,Mining,West,53138757.0,38,402.0
+C0200,Retail,Logistics,East,93452113.6,52,19.0
+C0201,Dealer,Infrastructure,South,84633831.6,49,41.0
+C0202,Government,Logistics,North,58935549.4,35,319.0
+C0203,Government,Manufacturing,West,55254922.2,37,364.0
+C0204,Retail,Rental,South,43385471.0,33,480.0
+C0205,Retail,Construction,North,68750922.6,39,177.0
+C0206,Retail,Construction,West,96630874.4,46,14.0
+C0207,Corporate,Rental,East,101737768.4,51,7.0
+C0208,Fleet Owner,Logistics,North,51714962.2,34,416.0
+C0209,Corporate,Infrastructure,East,72304789.4,46,140.0
+C0210,Retail,Infrastructure,West,54645456.0,32,378.0
+C0211,Fleet Owner,Manufacturing,South,63897083.199999996,45,247.0
+C0212,Retail,Infrastructure,North East,48934838.0,35,449.0
+C0213,Fleet Owner,Rental,West,68039047.6,32,186.0
+C0214,Corporate,Rental,West,54155736.6,35,387.0
+C0215,Corporate,Rental,South,79956715.4,53,65.0
+C0216,Government,Mining,East,76597799.4,46,101.0
+C0217,Corporate,Infrastructure,North,63312018.8,38,259.0
+C0218,Fleet Owner,Construction,West,55544090.8,45,357.0
+C0219,Government,Manufacturing,West,79417300.6,48,70.0
+C0220,Government,Infrastructure,Central,54813895.4,47,374.0
+C0221,Dealer,Logistics,North,82001959.0,44,53.0
+C0222,Fleet Owner,Logistics,North,61184396.6,44,286.0
+C0223,Corporate,Logistics,West,54993118.6,34,370.0
+C0224,Retail,Manufacturing,East,58349595.8,40,324.0
+C0225,Fleet Owner,Logistics,North,72456292.4,51,138.0
+C0226,Dealer,Logistics,West,49907828.2,28,436.0
+C0227,Fleet Owner,Infrastructure,East,65155178.8,39,232.0
+C0228,Government,Construction,South,65812402.2,36,224.0
+C0229,Government,Mining,East,46111656.0,29,465.0
+C0230,Dealer,Infrastructure,North,68274085.2,41,185.0
+C0231,Government,Infrastructure,West,66737768.0,39,208.0
+C0232,Government,Mining,South,62766339.2,41,266.0
+C0233,Government,Logistics,East,54215650.4,34,385.0
+C0234,Corporate,Infrastructure,West,80621425.6,33,61.0
+C0235,Fleet Owner,Mining,East,67658054.0,43,192.0
+C0236,Corporate,Mining,West,70995165.6,47,152.0
+C0237,Dealer,Infrastructure,South,76179786.8,46,106.0
+C0238,Corporate,Construction,South,39369812.4,32,490.0
+C0239,Government,Logistics,South,55722404.6,38,356.0
+C0240,Corporate,Manufacturing,South,104286776.8,50,6.0
+C0241,Government,Construction,West,90825382.8,46,26.0
+C0242,Government,Construction,South,77418552.4,50,93.0
+C0243,Government,Construction,North,50637406.0,34,428.0
+C0244,Government,Logistics,North,82751848.8,48,48.0
+C0245,Dealer,Logistics,South,59459217.6,37,310.0
+C0246,Retail,Manufacturing,North,78316881.4,37,79.0
+C0247,Corporate,Logistics,East,71151399.8,42,149.0
+C0248,Fleet Owner,Rental,West,45208412.0,30,473.0
+C0249,Corporate,Construction,West,67200206.8,40,197.0
+C0250,Government,Infrastructure,East,80665961.2,45,60.0
+C0251,Dealer,Mining,North,63937240.8,39,245.0
+C0252,Retail,Construction,South,50788059.0,38,427.0
+C0253,Retail,Rental,West,75155616.4,40,110.0
+C0254,Dealer,Mining,West,96361380.0,52,15.0
+C0255,Retail,Infrastructure,South,76546128.2,49,102.0
+C0256,Corporate,Infrastructure,North East,63561255.0,34,254.0
+C0257,Corporate,Logistics,North,76640757.4,45,99.0
+C0258,Corporate,Mining,South,69315386.0,31,169.0
+C0259,Fleet Owner,Logistics,South,66515887.2,37,210.0
+C0260,Dealer,Logistics,South,66249877.0,38,216.0
+C0261,Dealer,Manufacturing,North,73371667.4,40,129.0
+C0262,Corporate,Logistics,North,48644883.2,30,451.0
+C0263,Government,Rental,South,70309921.0,40,158.0
+C0264,Retail,Infrastructure,West,72106046.6,39,143.0
+C0265,Retail,Mining,West,56239915.0,33,352.0
+C0266,Fleet Owner,Rental,South,59493819.2,37,309.0
+C0267,Fleet Owner,Infrastructure,South,49252642.4,33,442.0
+C0268,Government,Mining,West,69239445.0,37,170.0
+C0269,Government,Mining,South,74531970.2,48,113.0
+C0270,Corporate,Manufacturing,North,73637293.4,46,123.0
+C0271,Corporate,Infrastructure,South,43599972.6,28,479.0
+C0272,Government,Construction,North,82042535.4,43,51.0
+C0273,Dealer,Manufacturing,East,64620418.2,40,235.0
+C0274,Dealer,Mining,North,64071466.6,42,243.0
+C0275,Fleet Owner,Construction,West,66880783.6,47,205.0
+C0276,Dealer,Manufacturing,Central,79846720.4,49,66.0
+C0277,Dealer,Logistics,West,45731394.2,38,469.0
+C0278,Fleet Owner,Logistics,West,59961056.4,45,303.0
+C0279,Dealer,Rental,West,38851894.0,28,493.0
+C0280,Corporate,Construction,West,64583738.6,47,236.0
+C0281,Government,Logistics,South,52632947.4,31,410.0
+C0282,Government,Logistics,East,78317730.4,51,78.0
+C0283,Retail,Logistics,North,46063181.6,33,466.0
+C0284,Corporate,Manufacturing,East,78191857.0,45,81.0
+C0285,Government,Infrastructure,West,57166086.6,51,342.0
+C0286,Dealer,Construction,South,64515433.4,39,237.0
+C0287,Dealer,Manufacturing,South,55179366.6,36,366.0
+C0288,Dealer,Infrastructure,North,107119652.2,63,3.0
+C0289,Corporate,Logistics,South,57538580.4,40,335.0
+C0290,Corporate,Construction,West,66221482.2,46,217.0
+C0291,Retail,Construction,South,93293350.4,54,20.0
+C0292,Corporate,Rental,Central,39031937.8,31,491.0
+C0293,Dealer,Logistics,West,73130661.4,42,133.0
+C0294,Government,Infrastructure,South,88081900.8,51,31.0
+C0295,Corporate,Mining,East,80533744.6,46,62.0
+C0296,Corporate,Manufacturing,East,59283432.8,41,316.0
+C0297,Fleet Owner,Rental,South,79590004.4,39,68.0
+C0298,Fleet Owner,Construction,South,54524918.8,37,382.0
+C0299,Retail,Logistics,South,53895506.2,37,393.0
+C0300,Dealer,Mining,North,77188710.6,44,95.0
+C0301,Dealer,Mining,East,64808979.2,47,234.0
+C0302,Fleet Owner,Mining,West,66273983.0,42,215.0
+C0303,Corporate,Mining,West,38889030.8,31,492.0
+C0304,Dealer,Construction,North,91211305.8,51,23.0
+C0305,Fleet Owner,Logistics,North,52766904.800000004,33,406.0
+C0306,Fleet Owner,Manufacturing,East,72686638.2,47,135.0
+C0307,Dealer,Manufacturing,West,87787133.2,48,33.0
+C0308,Retail,Mining,North,53708429.6,36,397.0
+C0309,Government,Manufacturing,West,38759244.8,32,494.0
+C0310,Government,Infrastructure,East,65486421.4,41,226.0
+C0311,Government,Infrastructure,North,78976613.2,46,73.0
+C0312,Government,Construction,West,67470700.2,40,193.0
+C0313,Corporate,Mining,West,53136931.2,32,403.0
+C0314,Retail,Logistics,East,69465050.8,45,163.0
+C0315,Dealer,Rental,West,63797282.4,42,248.0
+C0316,Dealer,Manufacturing,East,51245092.4,38,420.0
+C0317,Corporate,Manufacturing,South,52093578.6,38,414.0
+C0318,Corporate,Logistics,North,74022907.8,41,121.0
+C0319,Dealer,Mining,South,69856429.4,37,160.0
+C0320,Retail,Construction,North,54602363.0,35,380.0
+C0321,Retail,Logistics,South,62032369.0,42,278.0
+C0322,Government,Construction,West,41492290.0,29,485.0
+C0323,Government,Manufacturing,West,57786002.2,40,333.0
+C0324,Corporate,Mining,South,55237914.6,38,365.0
+C0325,Corporate,Rental,East,56775486.800000004,33,347.0
+C0326,Government,Mining,East,70540745.6,47,155.0
+C0327,Retail,Mining,West,62303773.6,45,273.0
+C0328,Government,Rental,East,68279316.4,40,184.0
+C0329,Dealer,Infrastructure,Central,64307436.8,36,241.0
+C0330,Retail,Infrastructure,East,58287142.6,41,327.0
+C0331,Dealer,Logistics,North,69377141.2,44,167.0
+C0332,Corporate,Mining,South,52716408.8,39,407.0
+C0333,Corporate,Mining,South,66085313.2,42,219.0
+C0334,Corporate,Mining,South,43977096.800000004,37,478.0
+C0335,Government,Infrastructure,North East,67074367.8,43,200.0
+C0336,Government,Rental,East,45959667.0,39,467.0
+C0337,Corporate,Manufacturing,North,74236665.0,35,117.0
+C0338,Corporate,Rental,West,54984288.4,38,371.0
+C0339,Fleet Owner,Logistics,South,52031024.0,27,415.0
+C0340,Government,Mining,South,70311394.8,39,157.0
+C0341,Fleet Owner,Mining,North,70851281.4,38,153.0
+C0342,Dealer,Infrastructure,North,100153639.6,44,8.0
+C0343,Corporate,Construction,West,75493416.4,45,108.0
+C0344,Fleet Owner,Mining,West,50089886.6,30,434.0
+C0345,Retail,Infrastructure,West,56899456.6,44,344.0
+C0346,Retail,Construction,East,54686860.8,39,376.0
+C0347,Retail,Mining,North,29076137.0,27,500.0
+C0348,Retail,Logistics,North,55466523.4,35,359.0
+C0349,Corporate,Rental,West,65933267.4,36,222.0
+C0350,Dealer,Logistics,North East,49779071.0,37,439.0
+C0351,Corporate,Rental,East,48026434.2,38,457.0
+C0352,Corporate,Mining,South,53320209.4,37,400.0
+C0353,Dealer,Manufacturing,North,35859534.8,30,497.0
+C0354,Corporate,Logistics,South,62107608.0,41,276.0
+C0355,Government,Infrastructure,South,73634372.6,40,124.0
+C0356,Dealer,Mining,East,79690881.0,45,67.0
+C0357,Corporate,Mining,West,61407267.4,32,284.0
+C0358,Government,Infrastructure,West,68550380.4,40,178.0
+C0359,Fleet Owner,Mining,South,99895983.4,52,10.0
+C0360,Dealer,Construction,West,60127880.8,34,301.0
+C0361,Government,Logistics,South,58802186.0,35,321.0
+C0362,Corporate,Rental,West,57018296.0,42,343.0
+C0363,Fleet Owner,Logistics,South,64018233.4,37,244.0
+C0364,Government,Infrastructure,East,61474010.8,38,282.0
+C0365,Government,Manufacturing,East,66847837.2,47,206.0
+C0366,Corporate,Logistics,East,46920707.6,30,461.0
+C0367,Fleet Owner,Logistics,South,61649463.4,31,280.0
+C0368,Fleet Owner,Construction,South,54132389.8,33,388.0
+C0369,Government,Manufacturing,West,76487726.6,46,103.0
+C0370,Corporate,Infrastructure,East,58581481.199999996,41,322.0
+C0371,Retail,Rental,South,91039744.6,51,25.0
+C0372,Government,Logistics,South,53251324.8,37,401.0
+C0373,Corporate,Manufacturing,South,77626618.6,43,91.0
+C0374,Corporate,Manufacturing,West,74514218.8,46,114.0
+C0375,Fleet Owner,Mining,West,83627577.8,44,46.0
+C0376,Retail,Construction,North,62674127.8,35,268.0
+C0377,Dealer,Logistics,West,72235206.4,40,142.0
+C0378,Retail,Manufacturing,North,62811212.6,42,265.0
+C0379,Retail,Mining,West,66830982.6,44,207.0
+C0380,Fleet Owner,Manufacturing,South,91048215.0,58,24.0
+C0381,Corporate,Mining,South,68417032.8,34,182.0
+C0382,Retail,Manufacturing,South,50583035.6,37,429.0
+C0383,Fleet Owner,Infrastructure,North,71832906.0,43,144.0
+C0384,Retail,Construction,South,81888155.8,42,55.0
+C0385,Corporate,Manufacturing,West,76626473.0,42,100.0
+C0386,Retail,Construction,North,53754976.6,38,395.0
+C0387,Dealer,Infrastructure,East,55063811.6,38,369.0
+C0388,Fleet Owner,Infrastructure,West,53499029.0,34,398.0
+C0389,Retail,Mining,West,56596362.6,33,349.0
+C0390,Fleet Owner,Construction,North,67178497.6,35,198.0
+C0391,Government,Construction,West,54227537.6,35,384.0
+C0392,Fleet Owner,Logistics,East,47369152.4,34,460.0
+C0393,Retail,Rental,East,57683779.4,42,334.0
+C0394,Government,Construction,South,84930805.8,46,40.0
+C0395,Corporate,Manufacturing,East,64514679.8,44,238.0
+C0396,Government,Manufacturing,West,67383019.2,40,195.0
+C0397,Fleet Owner,Mining,West,60279612.2,41,298.0
+C0398,Government,Rental,South,68352134.0,43,183.0
+C0399,Fleet Owner,Rental,South,62998360.6,42,263.0
+C0400,Government,Infrastructure,North,53789410.800000004,38,394.0
+C0401,Government,Logistics,North East,61848709.2,38,279.0
+C0402,Fleet Owner,Rental,South,51082966.6,39,421.0
+C0403,Government,Construction,East,85078442.8,49,39.0
+C0404,Government,Mining,West,57215502.0,35,340.0
+C0405,Corporate,Infrastructure,West,56480507.0,37,351.0
+C0406,Dealer,Logistics,West,70714584.6,37,154.0
+C0407,Dealer,Logistics,South,65695217.4,43,225.0
+C0408,Government,Infrastructure,South,69586523.2,39,161.0
+C0409,Government,Logistics,West,60821412.6,45,291.0
+C0410,Corporate,Mining,South,62834152.6,42,264.0
+C0411,Corporate,Mining,South,77930913.2,46,84.0
+C0412,Corporate,Infrastructure,East,49251584.6,37,443.0
+C0413,Fleet Owner,Manufacturing,South,69429652.6,46,165.0
+C0414,Dealer,Construction,South,69142464.4,44,171.0
+C0415,Government,Infrastructure,North East,73386860.0,36,128.0
+C0416,Dealer,Manufacturing,South,53927329.4,43,391.0
+C0417,Fleet Owner,Mining,East,56892210.6,36,345.0
+C0418,Government,Mining,West,49957660.0,32,435.0
+C0419,Fleet Owner,Logistics,West,63139736.8,34,262.0
+C0420,Retail,Rental,South,105420085.2,54,5.0
+C0421,Retail,Construction,South,88158611.2,45,30.0
+C0422,Government,Construction,South,78729224.2,44,75.0
+C0423,Dealer,Infrastructure,South,55793317.0,35,355.0
+C0424,Retail,Construction,West,63757994.8,38,250.0
+C0425,Dealer,Manufacturing,South,73307047.0,44,130.0
+C0426,Dealer,Infrastructure,North East,60676762.6,40,292.0
+C0427,Corporate,Mining,West,60390081.4,46,295.0
+C0428,Retail,Construction,North,72557852.6,45,137.0
+C0429,Fleet Owner,Logistics,West,71560643.6,44,145.0
+C0430,Retail,Manufacturing,West,47869210.4,29,458.0
+C0431,Government,Logistics,West,50133961.8,31,432.0
+C0432,Fleet Owner,Mining,South,55153813.4,41,367.0
+C0433,Dealer,Infrastructure,North,65222517.6,38,230.0
+C0434,Corporate,Mining,Central,54780833.4,35,375.0
+C0435,Dealer,Manufacturing,South,84330852.8,57,42.0
+C0436,Fleet Owner,Logistics,East,63326538.6,38,257.0
+C0437,Dealer,Mining,West,49034632.4,32,447.0
+C0438,Corporate,Rental,East,67257764.0,45,196.0
+C0439,Dealer,Construction,South,63476155.8,43,255.0
+C0440,Retail,Manufacturing,South,86507191.8,47,36.0
+C0441,Dealer,Construction,North,52770182.0,35,405.0
+C0442,Dealer,Logistics,East,60326225.8,36,296.0
+C0443,Dealer,Infrastructure,East,66704165.0,43,209.0
+C0444,Dealer,Manufacturing,South,59419781.4,35,312.0
+C0445,Government,Mining,East,62230426.6,30,275.0
+C0446,Retail,Logistics,South,55273239.8,36,362.0
+C0447,Fleet Owner,Rental,East,74979355.4,39,111.0
+C0448,Fleet Owner,Logistics,East,68537789.4,37,179.0
+C0449,Fleet Owner,Logistics,West,63310212.0,37,260.0
+C0450,Fleet Owner,Construction,East,62233287.4,43,274.0
+C0451,Government,Manufacturing,East,52353064.4,42,412.0
+C0452,Fleet Owner,Mining,South,50797162.6,42,426.0
+C0453,Dealer,Mining,East,65818457.0,36,223.0
+C0454,Government,Mining,West,46799854.199999996,37,462.0
+C0455,Retail,Logistics,Central,73447442.0,40,127.0
+C0456,Corporate,Mining,North,34272135.8,29,498.0
+C0457,Retail,Manufacturing,East,61313002.6,35,285.0
+C0458,Dealer,Manufacturing,West,61418386.0,43,283.0
+C0459,Retail,Logistics,East,79388823.0,45,71.0
+C0460,Dealer,Logistics,South,72367400.6,36,139.0
+C0461,Corporate,Infrastructure,North,71054553.4,42,150.0
+C0462,Retail,Logistics,South,92177113.6,52,21.0
+C0463,Dealer,Mining,West,58325024.0,36,326.0
+C0464,Corporate,Infrastructure,North,67409135.2,39,194.0
+C0465,Fleet Owner,Mining,South,54021591.4,39,390.0
+C0466,Retail,Manufacturing,South,99913868.2,52,9.0
+C0467,Retail,Construction,North,67788106.8,55,191.0
+C0468,Fleet Owner,Rental,South,89417777.4,56,29.0
+C0469,Government,Manufacturing,North,71372672.2,44,148.0
+C0470,Government,Mining,South,54364363.0,44,383.0
+C0471,Fleet Owner,Logistics,West,74383440.6,42,116.0
+C0472,Dealer,Manufacturing,South,58343752.4,37,325.0
+C0473,Government,Rental,South,51561279.0,31,417.0
+C0474,Government,Logistics,West,53742284.8,35,396.0
+C0475,Fleet Owner,Construction,East,97922412.6,58,11.0
+C0476,Fleet Owner,Infrastructure,North,84202311.6,38,43.0
+C0477,Government,Construction,West,57871728.4,37,331.0
+C0478,Retail,Rental,North,79015238.4,47,72.0
+C0479,Retail,Construction,West,39881485.2,29,488.0
+C0480,Government,Infrastructure,West,58091138.8,37,329.0
+C0481,Corporate,Logistics,South,61067778.2,40,288.0
+C0482,Fleet Owner,Logistics,East,81628023.2,36,56.0
+C0483,Corporate,Rental,North,108672502.0,53,2.0
+C0484,Fleet Owner,Mining,West,53367824.4,31,399.0
+C0485,Fleet Owner,Rental,West,66922042.0,34,203.0
+C0486,Government,Manufacturing,West,68491843.6,42,180.0
+C0487,Dealer,Mining,South,46208581.6,31,464.0
+C0488,Government,Construction,South,74510940.6,40,115.0
+C0489,Fleet Owner,Rental,South,78799228.8,51,74.0
+C0490,Government,Logistics,West,93900425.2,50,18.0
+C0491,Dealer,Infrastructure,South,78280966.4,32,80.0
+C0492,Dealer,Rental,East,65225924.2,37,229.0
+C0493,Retail,Construction,South,67033833.199999996,45,202.0
+C0494,Corporate,Construction,East,48287535.6,32,455.0
+C0495,Fleet Owner,Infrastructure,North,105717422.2,52,4.0
+C0496,Government,Infrastructure,East,63706971.4,41,251.0
+C0497,Government,Logistics,South,54198333.6,33,386.0
+C0498,Fleet Owner,Construction,East,66413930.8,30,212.0
+C0499,Corporate,Construction,East,72950313.2,44,134.0
+C0500,Corporate,Infrastructure,East,46749033.2,29,463.0
